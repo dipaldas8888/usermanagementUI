@@ -1,0 +1,55 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Build files
+/build/
+/dist/
+/.next/
+/out/
+
+# Cache
+/.cache
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env*.local
+.env
+.env.development
+.env.production
+.env.test
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Testing (Jest, Cypress, etc.)
+/coverage/
+.nyc_output
+/cypress/screenshots/
+/cypress/videos/
+
+# Optional (if using npm/yarn)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional (if using TurboRepo)
+.turbo
+
+# Optional (if using Storybook)
+.storybook-dist
